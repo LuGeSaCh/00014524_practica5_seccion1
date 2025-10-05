@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 1px;
+  background-color: #a5d9ff;
+  color: #000000;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.personaje-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 50px; 
+  margin: 20px auto; 
+  max-width: 500px;
+}
+
+.personaje-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.personaje-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.personaje-card ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.personaje-card li {
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+
+.personaje-card {
+  display: flex;              
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.personaje-card img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  display: block;             
+  flex-shrink: 0;             
+  object-fit: cover;          
+}
